@@ -1,0 +1,63 @@
+{
+  "mahasiswa": {
+    "namaLengkap": "Driyo Agung Leksono",
+    "alamat": "Blora",
+    "prodi": "Informatika",
+    "usia": 20,
+    "lulus": false,
+    "mataKuliah": [
+      {
+        "nama": "Algoritma dan Struktur Data",
+        "jumlah_sks": 3,
+        "jadwal_kuliah": {
+          "hari": "Senin",
+          "jam_mulai": "13:00",
+          "jam_selesai": "14:30"
+        },
+        "dosen_pengampu": "Endang Wahyu",
+        "bab_materi": [
+          "Pengenalan Algoritma",
+          "Struktur Data Dasar",
+          "Analisis Kompleksitas Algoritma"
+        ]
+      },
+      {
+        "nama": "Sistem Basis Data",
+        "jumlah_sks": 4,
+        "jadwal_kuliah": {
+          "hari": "Jumat",
+          "jam_mulai": "9:00",
+          "jam_selesai": "11:30"
+        },
+        "dosen_pengampu": "Helmi imaduddin",
+        "bab_materi": ["Konsep Basis Data", "Model Data Relasional", "SQL"]
+      },
+      {
+        "nama": "Rekayasa Perangkat Lunak",
+        "jumlah_sks": 3,
+        "jadwal_kuliah": {
+          "hari": "Kamis",
+          "jam_mulai": "06:30",
+          "jam_selesai": "09:00"
+        },
+        "dosen_pengampu": "Widi Widayat",
+        "bab_materi": [
+          "UI/UX",
+          "Dokumen Functional Requirements",
+          "Pengembangan Perangkat Lunak"
+        ]
+      },
+      {
+        "nama": "Pemrograman Web",
+        "jumlah_sks": 3,
+        "jadwal_kuliah": {
+          "hari": "Kamis",
+          "jam_mulai": "14:10",
+          "jam_selesai": "16:20"
+        },
+        "dosen_pengampu": "Gunawan Ariyanto",
+        "bab_materi": ["HTML", "CSS", "JavaScript", "Framework Web"]
+      }
+    ]
+  }
+}

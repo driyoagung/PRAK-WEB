@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Daftar Modul Tugas</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <style>
+      body {
+        font-family: "Sriracha", cursive;
+        background: linear-gradient(to bottom right, #ffcc00, #ff9900);
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+      .module-card-icon {
+        font-size: 48px;
+        color: #ffffff;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      h1 {
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 20px;
+        animation: fadeIn 1s ease-in;
+      }
+
+      .module-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      .module-card {
+        width: 150px;
+        height: 150px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin: 30px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        transform: scale(1);
+        transition: transform 0.3s ease-in-out;
+        animation: cardFadeIn 0.5s ease-in-out;
+      }
+
+      .module-card:hover {
+        transform: scale(1);
+        animation: scale 0.5s infinite alternate;
+      }
+
+      .module-card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
+
+      .module-card-content h4 {
+        margin-top: 10px;
+        text-align: center;
+        color: #333;
+      }
+
+      .module-card-icon {
+        font-size: 48px;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes bounce {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-20px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Daftar Modul Tugas</h1>
+      <h1>Srilika Fajri Pralamabang</h1>
+
+      <div class="module-wrapper">
+        <div class="module-card" onclick="openModule('Modul1')">
+          <div class="module-card-content">
+            <span class="module-card-icon">&#128308;</span>
+            <h4>Modul 1</h4>
+          </div>
+        </div>
+
+        <div class="module-card" onclick="openModule('Modul2')">
+          <div class="module-card-content">
+            <span class="module-card-icon">&#128190;</span>
+            <h4>Modul 2</h4>
+          </div>
+        </div>
+
+        <div class="module-card" onclick="openModule('Modul3')">
+          <div class="module-card-content">
+            <span class="module-card-icon">&#128200;</span>
+            <h4>Modul 3</h4>
+          </div>
+        </div>
+
+        <div class="module-card" onclick="openModule('Modul4')">
+          <div class="module-card-content">
+            <span class="module-card-icon">&#128194;</span>
+            <h4>Modul 4</h4>
+          </div>
+        </div>
+
+        <div class="module-card" onclick="openModule('Modul5')">
+          <div class="module-card-content">
+            <span class="module-card-icon">&#128197;</span>
+            <h4>Modul 5</h4>
+          </div>
+        </div>
+
+        <div class="module-card" onclick="openModule('Modul6')">
+          <div class="module-card-content">
+            <span class="module-card-icon">&#128198;</span>
+            <h4>Modul 6</h4>
+          </div>
+        </div>
+
+        <div class="module-card" onclick="openModule('Modul7')">
+          <div class="module-card-content">
+            <span class="module-card-icon">&#128200;</span>
+            <h4>Modul 7</h4>
+          </div>
+        </div>
+
+        <div class="module-card" onclick="openModule('Modul8')">
+          <div class="module-card-content">
+            <span class="module-card-icon">&#128201;</span>
+            <h4>Modul 8</h4>
+          </div>
+        </div>
+
+        <div class="module-card" onclick="openModule('Modul9')">
+          <div class="module-card-content">
+            <span class="module-card-icon">&#128202;</span>
+            <h4>Modul 9</h4>
+          </div>
+        </div>
+
+        <div class="module-card" onclick="openModule('Modul10')">
+          <div class="module-card-content">
+            <span class="module-card-icon">&#128203;</span>
+            <h4>Modul 10</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function openModule(moduleURL) {
+        window.open(moduleURL, "_blank");
+      }
+    </script>
+  </body>
+</html>

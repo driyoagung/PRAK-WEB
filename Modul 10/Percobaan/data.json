@@ -1,0 +1,16 @@
+{
+  "namaLengkap": "Driyo Agung Leksono",
+  "alamat": "Blora",
+  "prodi": "Informatika",
+  "usia": 20,
+  "lulus": false,
+  "mataKuliah": [
+    "Pemrograman Website",
+    "Algoritma Pemrograman",
+    "Kapita Selekta"
+  ],
+  "nilai": {
+    "Aljabar Linier": "AB",
+    "Logika Matematika": "A"
+  }
+}
